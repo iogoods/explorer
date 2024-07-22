@@ -1,0 +1,4 @@
+[submodule "polkadapt"]
+	path = polkadapt
+	url = https://github.com/iogoods/polkadapt
+	branch = main

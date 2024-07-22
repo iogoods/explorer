@@ -1,0 +1,54 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": false,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2017",
+    "module": "es2020",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "strictPropertyInitialization": false,
+    "paths": {
+      "coingecko": [
+        "dist/coingecko/coingecko",
+        "dist/coingecko"
+      ],
+      "polkadapt": [
+        "dist/polkadapt/polkadapt",
+        "dist/polkadapt"
+      ],
+      "core": [
+        "dist/core/core",
+        "dist/core"
+      ],
+      "substrate-rpc": [
+        "dist/substrate-rpc/substrate-rpc",
+        "dist/substrate-rpc"
+      ],
+      "polkascan-explorer": [
+        "dist/polkascan-explorer/polkascan-explorer",
+        "dist/polkascan-explorer"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}
